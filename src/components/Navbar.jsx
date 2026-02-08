@@ -36,7 +36,7 @@ const Navbar = () => {
             {/* Mobile Menu */}
             {
                 visible && (
-                    <div className={`fixed bg-transparent backdrop-blur-sm top-16 left-0 right-0 z-50 flex flex-col items-center gap-6 py-6 shadow-[0_4px_6px_rgba(0,0,0,0.1)] sm:hidden
+                    <div className={`fixed bg-white/80 dark:bg-gray-900/80 backdrop-blur-3xl shadow-lg top-16 left-0 right-0 z-50 flex flex-col items-center gap-6 py-6 shadow-[0_4px_6px_rgba(0,0,0,0.1)] sm:hidden
                         transition-all duration-500 ease-in-out 
                         ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'}`}>
                         {['home', 'about', 'projects', 'contact'].map((item) => (
