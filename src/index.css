@@ -13,7 +13,7 @@
 }
 
 :root {
-  background-color: #ffffff;
+  background-color: #FAFAFA;
   color: #1a1a1a;
 }
 
@@ -27,8 +27,4 @@ body {
   color: inherit;
   transition: background-color 0.3s ease, color 0.3s ease;
   min-height: 100vh;
-}
-
-.dark h1, .dark h2, .dark h3, .dark p, .dark span {
-  color: #ffffff;
 }
