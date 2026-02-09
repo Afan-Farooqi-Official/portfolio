@@ -10,13 +10,13 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between w-full py-2 shadow-[0_4px_6px_-4px_rgba(0,0,0,0.15)] dark:shadow-[0_4px_6px_-4px_rgba(255,255,255,0.15)] px-4 md:px-8 lg:px-16 bg-transparent backdrop-blur-sm fixed top-0 left-0 right-0 z-50'>
-        <div id='home'>
+        <div>
             <Logo />
         </div>
 
         <div className='flex items-center gap-6'>
             <ul className='hidden sm:flex items-center gap-6 font-medium'>
-                {['home', 'about', 'projects', 'contact'].map((item) => (
+                {['home', 'about', 'projects', 'services', 'contact'].map((item) => (
                     <li key={item} className='group flex flex-col items-center gap-1'>
                     <a href={`#${item}`} className='transition-colors duration-300 group-hover:text-sky-500'>{item.charAt(0).toUpperCase() + item.slice(1)}</a>
                     <span className='block h-[1.5px] bg-sky-500 w-0 transition-all duration-300 group-hover:w-full'></span>

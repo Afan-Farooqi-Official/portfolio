@@ -51,7 +51,7 @@ const Projects = () => {
   return (
     <div className='w-full min-h-screen bg-sky-50 dark:bg-[#0f172a] flex flex-col px-6 py-10 md:px-20 md:py-20' id='projects'>
       <Title title="Featured Projects" />
-      <h3 className='text-center text-gray-700 dark:text-gray-300'>Explore my recent projects to discover what I've been working on.</h3>
+      <h3 className='max-w-4xl text-center mx-auto leading-relaxed text-lg sm:text-md text-gray-600 dark:text-gray-400'>Explore my recent projects to discover what I've been working on.</h3>
       <div className='w-full h-full flex flex-col gap-10 mt-10'>
         {
           projects.map((project, index) => (

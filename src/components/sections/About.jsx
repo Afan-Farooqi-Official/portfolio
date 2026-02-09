@@ -3,10 +3,10 @@ import Title from '../Title'
 
 const About = () => {
   return (
-    <div className='w-full min-h-screen flex flex-col px-6 md:px-20' id='about'>
+    <div className='w-full min-h-screen flex flex-col px-6 py-10 md:px-20 md:py-20' id='about'>
       <div className='flex flex-col justify-center items-center'>
         <Title title="About Me" />
-        <p className='max-w-4xl text-center mx-auto leading-relaxed text-lg sm:text-md text-gray-600 dark:text-gray-400 '>
+        <p className='max-w-4xl text-center mx-auto leading-relaxed text-lg sm:text-md text-gray-600 dark:text-gray-400'>
           MERN Stack Developer focused on building scalable, high-performance web applications using MongoDB, Express.js, React, and Node.js. Passionate about clean architecture, efficient code, and delivering intuitive, user-centric digital experiences.
         </p>
       </div>
@@ -16,7 +16,7 @@ const About = () => {
           {/* frontend */}
             <div className='bg-sky-50 dark:bg-gray-800 p-6 rounded-lg shadow-md 
             transition-transform duration-300 ease-in-out 
-            hover:bg-sky-200 dark:hover:bg-gray-700
+            hover:bg-sky-100 dark:hover:bg-gray-900
             hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02]'
             >
               <h4 className='text-xl font-semibold text-gray-800 dark:text-gray-200'>Frontend</h4>
@@ -32,7 +32,7 @@ const About = () => {
           {/* backend */}
             <div className='bg-sky-50 dark:bg-gray-800 p-6 rounded-lg shadow-md 
             transition-transform duration-300 ease-in-out 
-            hover:bg-sky-200 dark:hover:bg-gray-700
+            hover:bg-sky-100 dark:hover:bg-gray-900
             hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02]'
             >
               <h4 className='text-xl font-semibold text-gray-800 dark:text-gray-200'>Backend</h4>
@@ -50,7 +50,7 @@ const About = () => {
           {/* cloud & devOps */}
             <div className='bg-sky-50 dark:bg-gray-800 p-6 rounded-lg shadow-md 
             transition-transform duration-300 ease-in-out 
-            hover:bg-sky-200 dark:hover:bg-gray-700
+            hover:bg-sky-100 dark:hover:bg-gray-900
             hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02]'
             >
               <h4 className='text-xl font-semibold text-gray-800 dark:text-gray-200'>Cloud & DevOps</h4>
