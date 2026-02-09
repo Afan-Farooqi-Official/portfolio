@@ -10,7 +10,9 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between w-full py-2 shadow-[0_4px_6px_-4px_rgba(0,0,0,0.15)] dark:shadow-[0_4px_6px_-4px_rgba(255,255,255,0.15)] px-4 md:px-8 lg:px-16 bg-transparent backdrop-blur-sm fixed top-0 left-0 right-0 z-50'>
-        <Logo />
+        <div id='home'>
+            <Logo />
+        </div>
 
         <div className='flex items-center gap-6'>
             <ul className='hidden sm:flex items-center gap-6 font-medium'>

@@ -3,12 +3,12 @@ import Animation from '../Animation'
 
 const Hero = () => {
   return (
-    <div className='w-full min-h-[450px] md:min-h-[500px] mt-20 bg-sky-50 dark:bg-[#0f172a] flex justify-between items-center px-6 md:px-20'>
+    <div className='w-full min-h-[400px] md:min-h-[500px] mt-20 bg-sky-50 dark:bg-[#0f172a] flex justify-between items-center px-6 md:px-20' id='home'>
 
       <div className='w-full md:w-2/3 lg:w-3/4 text-center md:text-left py-10 md:py-0 lg:py-0'>
-        <h1 className='text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-sky-300 text-transparent bg-clip-text'>Afan Qaiser Farooqi</h1>
-        <h2 className='text-xl sm:text-2xl font-semibold mb-4 bg-gradient-to-r from-blue-600 to-sky-300 text-transparent bg-clip-text'>MERN Stack Developer</h2>
-        <p className='text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-6'>Crafting elegant solutions with modern web technologies.</p>
+        <h1 className='text-4xl sm:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-sky-300 text-transparent bg-clip-text'>Afan Qaiser Farooqi</h1>
+        <h2 className='text-xl sm:text-3xl font-semibold mb-4 bg-gradient-to-r from-blue-600 to-sky-300 text-transparent bg-clip-text'>MERN Stack Developer</h2>
+        <p className='text-lg sm:text-md text-gray-600 dark:text-gray-400 mb-6'>Crafting elegant solutions with modern web technologies.</p>
         <div className='flex items-center md:justify-start justify-center'>
           <a href="#contact" className='inline-block px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition'>Get In Touch</a>
           
