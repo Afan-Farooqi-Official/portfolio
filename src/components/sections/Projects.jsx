@@ -70,11 +70,11 @@ const Projects = () => {
                 <div className='flex gap-4 mt-4'>
                   <a href={project.link} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">
                     <Link size={22} className='inline-block mr-2' />
-                    View Demo
+                    Demo
                   </a>
                   <a href={project.code} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-900 transition-colors duration-300">
                     <Github className='inline-block mr-2' size={22} />
-                    View Code
+                    Code
                   </a>
                 </div>
               </div>
