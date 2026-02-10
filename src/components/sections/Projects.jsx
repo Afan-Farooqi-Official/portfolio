@@ -42,7 +42,7 @@ const Projects = () => {
       title: "Disney+ Clone",
       description: "A responsive and feature-rich Disney+ clone built with React and TailwindCSS, replicating the core UI and functionality of the popular streaming platform. It includes a modern design, responsive layout, and seamless navigation across devices.",
       image: assets.DisneyPlus,
-      link: "https://disney-plus-clone.vercel.app/",
+      link: "https://disney-plus-clone-six-sigma.vercel.app/",
       code: "https://github.com/Afan-Farooqi-Official/DisneyPlus-Clone",
       stacks: ["React.js", "TailwindCSS", "Firebase", "Redux"]
     },
